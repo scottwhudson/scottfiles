@@ -55,9 +55,11 @@ brew install dark-mode
 brew install git
 brew install git-lfs
 brew install imagemagick --with-webp
-brew install lua
 brew install lynx
 brew install mysql
+brew install postgresql
+brew install python
+brew install python3
 brew install ngrep
 brew install p7zip
 brew install pigz
