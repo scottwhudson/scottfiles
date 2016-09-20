@@ -1,22 +1,27 @@
 "*":
-  "exception-reporting":
-    userId: "9c996493-943f-08bd-97ff-0bf964cfee3d"
-  welcome:
-    showOnStartup: false
-  core:
-    themes: [
-      "atom-material-ui"
-      "atom-material-syntax"
-    ]
-    disabledPackages: [
-      "wrap-guide"
-    ]
-  editor:
-    invisibles: {}
-    softWrap: true
-    fontSize: 15
-    tabType: "soft"
-  minimap:
-    plugins:
-      "git-diff": true
-  "go-plus": {}
+  core:
+    disabledPackages: [
+      "wrap-guide"
+      "term"
+    ]
+    themes: [
+      "atom-material-ui"
+      "solarized-light-syntax"
+    ]
+  editor:
+    fontFamily: "SourceCodePro-Regular"
+    fontSize: 12
+    invisibles: {}
+    softWrap: true
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "9c996493-943f-08bd-97ff-0bf964cfee3d"
+  "go-plus": {}
+  linter:
+    showErrorPanel: false
+  minimap:
+    plugins:
+      "git-diff": true
+  welcome:
+    showOnStartup: false
