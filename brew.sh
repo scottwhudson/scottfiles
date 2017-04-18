@@ -31,15 +31,10 @@ brew install gnu-sed --with-default-names
 brew install bash
 brew tap homebrew/versions
 brew install bash-completion2
+brew install bash-git-prompt
 
 # Install `wget` with IRI support.
 brew install wget --with-iri
-
-# Install RingoJS and Narwhal.
-# Note that the order in which these are installed is important;
-# see http://git.io/brew-narwhal-ringo.
-brew install ringojs
-brew install narwhal
 
 # Install more recent versions of some OS X tools.
 brew install macvim --override-system-vi
@@ -50,8 +45,6 @@ brew install homebrew/php/php55 --with-gmp
 
 # Install other useful binaries.
 brew install ack
-brew install bash-completion
-brew install bash-git-prompt
 brew install dark-mode
 brew install git
 brew install git-lfs
@@ -62,6 +55,7 @@ brew install python
 brew install python3
 brew install ngrep
 brew install pv
+brew install rbenv
 brew install tree
 
 # Install casks
