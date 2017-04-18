@@ -1,7 +1,7 @@
-# ~/.tmuxinator/auditproxy.yml
+# ~/.tmuxinator/default.yml
 
-name: auditproxy
-root: ~/Development/auditproxy-test
+name: default
+root: ~/Development/project-name
 
 # Optional tmux socket
 # socket_name: foo
