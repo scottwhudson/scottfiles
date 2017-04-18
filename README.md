@@ -1,11 +1,8 @@
-# Scottfiles
-##### aka Scott's Dotfiles
+# Scott's Dotfiles
 
 A modified version of [mathiasbynens dotfiles](https://github.com/mathiasbynens/dotfiles)
 
 ## Installation
-
-**Warning:** If you want to give these dotfiles a try, you should first fork this repository, review the code, and remove things you don’t want or need. Don’t blindly use my settings unless you know what that entails. Use at your own risk!
 
 I always begin with a clean OSX install and run the setup as follows:
 
@@ -31,20 +28,10 @@ git clone https://github.com/scottwhudson/scottfiles.git && cd scottfiles && sou
 ./.osx
 ```
 
-### Using Git and the bootstrap script
-
-You can clone the repository wherever you want. (I like to keep it in `~/Projects/dotfiles`, with `~/dotfiles` as a symlink.) The bootstrapper script will pull in the latest version and copy the files to your home folder.
-
+6. Install vim plugins
 ```bash
-git clone https://github.com/mathiasbynens/dotfiles.git && cd dotfiles && source bootstrap.sh
+ruby vim/install.rb
 ```
-
-To update the dotfiles without resintalling the OS, `cd` into `scottfiles` and then run:
-
-```bash
-source bootstrap.sh
-```
-
 
 ### Specify the `$PATH`
 
