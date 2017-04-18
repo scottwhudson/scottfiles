@@ -42,7 +42,7 @@ brew install ringojs
 brew install narwhal
 
 # Install more recent versions of some OS X tools.
-brew install vim --override-system-vi
+brew install macvim --override-system-vi
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
@@ -50,32 +50,23 @@ brew install homebrew/php/php55 --with-gmp
 
 # Install other useful binaries.
 brew install ack
+brew install bash-completion
+brew install bash-git-prompt
 brew install dark-mode
-#brew install exiv2
 brew install git
 brew install git-lfs
 brew install imagemagick --with-webp
-brew install lynx
 brew install mysql
 brew install postgresql
 brew install python
 brew install python3
 brew install ngrep
-brew install p7zip
-brew install pigz
 brew install pv
-brew install rename
-brew install rhino
-brew install speedtest_cli
-brew install ssh-copy-id
 brew install tree
-brew install webkit2png
-brew install zopfli
 
 # Install casks
 brew tap caskroom/cask
 brew cask install atom
-brew cask install flux
 brew cask install spectacle
 brew cask install slack
 brew cask install google-chrome
