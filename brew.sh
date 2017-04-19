@@ -31,7 +31,6 @@ brew install gnu-sed --with-default-names
 brew install bash
 brew tap homebrew/versions
 brew install bash-completion2
-brew install bash-git-prompt
 
 # Install `wget` with IRI support.
 brew install wget --with-iri
@@ -54,6 +53,7 @@ brew install python3
 brew install ngrep
 brew install pv
 brew install rbenv
+brew install tmux
 brew install tree
 
 # Install casks
@@ -65,12 +65,9 @@ brew cask install google-chrome
 brew cask install firefox
 brew cask install postman
 brew cask install backblaze
-brew cask install hipchat
 brew cask install iterm2
 brew cask install lastpass
 brew cask install spotify
-brew cask install vagrant
-brew cask install virtualbox
 brew cask install libreoffice
 
 # background services
