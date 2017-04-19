@@ -40,8 +40,6 @@ brew install wget --with-iri
 brew install macvim --override-system-vi
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
-brew install homebrew/php/php55 --with-gmp
 
 # Install other useful binaries.
 brew install ack
