@@ -20,3 +20,6 @@ autocmd FileType ruby setlocal expandtab shiftwidth=2 tabstop=2
 syntax enable
 set background=dark
 colorscheme solarized
+
+" Custom ignore for ctrl-p
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
