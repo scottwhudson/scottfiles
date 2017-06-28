@@ -1,0 +1,4 @@
+[core]
+	excludesfile = /Users/swh-bractlet/.gitignore_global
+[init]
+	templatedir = ~/.git_template
