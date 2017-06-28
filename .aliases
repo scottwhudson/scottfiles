@@ -1,8 +1,10 @@
-# General
+# Shell
 alias dev="cd ~/Development"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
+
+# MacOS
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
 # Git
@@ -17,3 +19,6 @@ alias be="bundle exec"
 # Elixir
 alias smix="iex -S mix"
 alias mixb="mix escript.build"
+
+# Tmux
+alias ta="tmux attach"
