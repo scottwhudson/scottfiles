@@ -1,7 +1,19 @@
-alias gs="git status"
+# General
 alias dev="cd ~/Development"
-alias vim="mvim -v"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# Git
+alias gs="git status"
+
+# Vim
+alias vim="mvim -v"
+
+# Ruby
+alias be="bundle exec"
+
+# Elixir
+alias smix="iex -S mix"
+alias mixb="mix escript.build"
