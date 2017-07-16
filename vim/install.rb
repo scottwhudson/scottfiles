@@ -1,10 +1,12 @@
 #!/usr/bin/env ruby
 
 puts "writing .vimrc"
-`cp vimrc ~/.vimrc`
+`touch ~/.vimrc`
+`cat vimrc >> ~/.vimrc`
 
 puts "cloning pathogen"
-`git clone https://github.com/tpope/vim-pathogen.git ~/.vim/autoload/pathogen.vim`
+`git clone https://github.com/tpope/vim-pathogen.git ~/.vim/bundle/pathogen.vim`
+`cp ~/.vim/bundle/pathogen.vim/autoload/pathogen.vim ~/.vim/autoload/pathogen.vim`
 
 puts "cloning Ctrl-P"
 `git clone https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim`
