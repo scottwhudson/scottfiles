@@ -1,4 +1,0 @@
-atom-material-syntax@0.2.10
-atom-material-ui@0.8.0
-file-icons@1.6.13
-
