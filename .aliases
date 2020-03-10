@@ -10,9 +10,6 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 # Git
 alias gs="git status"
 
-# Vim
-alias vim="mvim -v"
-
 # Ruby
 alias be="bundle exec"
 

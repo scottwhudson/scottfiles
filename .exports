@@ -1,3 +1,2 @@
-export EDITOR='mvim';
+export EDITOR='code';
 export HISTFILESIZE='32768';
-
